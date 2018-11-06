@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4881130607120954}
   - component: {fileID: 212545154190754236}
   - component: {fileID: 61833636068756442}
-  - component: {fileID: 114187483826470588}
+  - component: {fileID: 114375642435790544}
   m_Layer: 0
   m_Name: GrillageSprite
   m_TagString: Untagged
@@ -67,7 +67,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5, y: 2.5}
   m_EdgeRadius: 0
---- !u!114 &114187483826470588
+--- !u!114 &114375642435790544
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -75,9 +75,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1026542726522716}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e053b0a94752146e79954ce4df1b5565, type: 3}
+  m_Script: {fileID: 11500000, guid: 372063467ff1a234da5427caf94fca2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sleepTime: 0.3
 --- !u!212 &212545154190754236
 SpriteRenderer:
   m_ObjectHideFlags: 1
