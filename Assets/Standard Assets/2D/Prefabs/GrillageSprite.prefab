@@ -9,19 +9,19 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1877385887657334}
+  m_RootGameObject: {fileID: 1970890977932046}
   m_IsPrefabAsset: 1
---- !u!1 &1877385887657334
+--- !u!1 &1970890977932046
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4614602746067524}
-  - component: {fileID: 212610456710672982}
-  - component: {fileID: 61446106625337430}
-  - component: {fileID: 114214016906298776}
+  - component: {fileID: 4122374744893992}
+  - component: {fileID: 212834117026931262}
+  - component: {fileID: 61202530092185928}
+  - component: {fileID: 114270079975980740}
   m_Layer: 0
   m_Name: GrillageSprite
   m_TagString: Untagged
@@ -29,25 +29,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4614602746067524
+--- !u!4 &4122374744893992
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1877385887657334}
+  m_GameObject: {fileID: 1970890977932046}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 861.51056, y: -55.92492, z: 0}
+  m_LocalPosition: {x: 54.25499, y: -14.394236, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &61446106625337430
+--- !u!61 &61202530092185928
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1877385887657334}
+  m_GameObject: {fileID: 1970890977932046}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -67,23 +67,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5, y: 2.5}
   m_EdgeRadius: 0
---- !u!114 &114214016906298776
+--- !u!114 &114270079975980740
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1877385887657334}
+  m_GameObject: {fileID: 1970890977932046}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e053b0a94752146e79954ce4df1b5565, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a68b4de3c0bfea4ba737c85c897abf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!212 &212610456710672982
+  canvas: {fileID: 0}
+--- !u!212 &212834117026931262
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1877385887657334}
+  m_GameObject: {fileID: 1970890977932046}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
