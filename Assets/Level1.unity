@@ -709,7 +709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eec97897680d9e7409754d74d65c9b88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  piege: {fileID: 4122374744893992, guid: a69d1be3a0d6b8f4c9a34a1bdbd77cb5, type: 2}
+  piege: {fileID: 4571083399420512, guid: a69d1be3a0d6b8f4c9a34a1bdbd77cb5, type: 2}
   coordonnees: {x: 17.65, y: 0.8260733}
 --- !u!61 &343140280
 BoxCollider2D:
@@ -1512,7 +1512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eec97897680d9e7409754d74d65c9b88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  piege: {fileID: 4290922128604450, guid: dd74bbda8478bfe4e8b25e64d7956e0b, type: 2}
+  piege: {fileID: 4462609815091550, guid: dd74bbda8478bfe4e8b25e64d7956e0b, type: 2}
   coordonnees: {x: 78.5, y: 0.75}
 --- !u!61 &713957107
 BoxCollider2D:
@@ -1563,7 +1563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eec97897680d9e7409754d74d65c9b88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  piege: {fileID: 4290922128604450, guid: dd74bbda8478bfe4e8b25e64d7956e0b, type: 2}
+  piege: {fileID: 4462609815091550, guid: dd74bbda8478bfe4e8b25e64d7956e0b, type: 2}
   coordonnees: {x: 81.5, y: 0.75}
 --- !u!114 &713957111
 MonoBehaviour:
@@ -1576,7 +1576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eec97897680d9e7409754d74d65c9b88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  piege: {fileID: 4290922128604450, guid: dd74bbda8478bfe4e8b25e64d7956e0b, type: 2}
+  piege: {fileID: 4462609815091550, guid: dd74bbda8478bfe4e8b25e64d7956e0b, type: 2}
   coordonnees: {x: 80, y: 0.75}
 --- !u!1001 &714862324
 Prefab:
@@ -2373,7 +2373,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1043302418}
   - component: {fileID: 1043302421}
-  - component: {fileID: 1043302420}
   - component: {fileID: 1043302419}
   m_Layer: 0
   m_Name: FeuRougeSprite
@@ -2410,31 +2409,6 @@ MonoBehaviour:
   feu: {fileID: 1043302417}
   feuRouge: {fileID: 21300000, guid: d6041fb63aeedb44189076834a3498c4, type: 3}
   feuVert: {fileID: 21300000, guid: a432e6a1d19adc4499f8a5f78269f2ac, type: 3}
---- !u!61 &1043302420
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1043302417}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 10, y: 10}
-    newSize: {x: 10, y: 10}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 10, y: 10}
-  m_EdgeRadius: 0
 --- !u!212 &1043302421
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2944,7 +2918,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1241908320}
   - component: {fileID: 1241908319}
-  - component: {fileID: 1241908318}
   - component: {fileID: 1241908317}
   m_Layer: 0
   m_Name: FeuRougeSprite
@@ -2967,31 +2940,6 @@ MonoBehaviour:
   feu: {fileID: 1241908316}
   feuRouge: {fileID: 21300000, guid: d6041fb63aeedb44189076834a3498c4, type: 3}
   feuVert: {fileID: 21300000, guid: a432e6a1d19adc4499f8a5f78269f2ac, type: 3}
---- !u!61 &1241908318
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1241908316}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 10, y: 10}
-    newSize: {x: 10, y: 10}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 10, y: 10}
-  m_EdgeRadius: 0
 --- !u!212 &1241908319
 SpriteRenderer:
   m_ObjectHideFlags: 0
