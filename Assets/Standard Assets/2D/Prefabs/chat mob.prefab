@@ -20,12 +20,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4462609815091550}
   - component: {fileID: 212557410880050004}
-  - component: {fileID: 114445026697589250}
   - component: {fileID: 61835126363016510}
   - component: {fileID: 61636099904188326}
+  - component: {fileID: 114606514558122182}
   m_Layer: 0
   m_Name: chat mob
-  m_TagString: Untagged
+  m_TagString: Piege
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,7 +93,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.62, y: 0.3890843}
   m_EdgeRadius: 0
---- !u!114 &114445026697589250
+--- !u!114 &114606514558122182
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1515740667343156}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e053b0a94752146e79954ce4df1b5565, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a68b4de3c0bfea4ba737c85c897abf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &212557410880050004
