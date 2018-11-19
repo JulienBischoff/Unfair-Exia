@@ -9,7 +9,6 @@ public class GameManager : MonoBehaviour {
     public GameObject canvas;
     public bool isVert;
 
-    private GameObject[] pieges;
     private GameObject player;
 
     public void Update()
@@ -19,6 +18,7 @@ public class GameManager : MonoBehaviour {
 
     public void Death()
     {
+        Score.nbMort++;
         canvas.SetActive(true);
         Time.timeScale = 0;
     }
