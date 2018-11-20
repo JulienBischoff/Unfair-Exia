@@ -6,12 +6,14 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour {
 
     public static int nbMort;
-    Text score;
+    public static Text score;
 
 	// Use this for initialization
 	void Start () {
         score = GetComponent<Text>();
-	}
+        score.text = "Nombre de mort: 0";
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
