@@ -18,17 +18,17 @@ public class GameManager : MonoBehaviour {
 
     public void Death()
     {
-        Score.nbMort = Score.nbMort+1;
+        Score.nbMort++;
         canvas.SetActive(true);
         Time.timeScale = 0;
     }
 
     public void Restart()
     {
-        BaseManager.baseManager.UnloadScene(1);
-        BaseManager.baseManager.LoadScene(1);
+        BaseManager.baseManager.Reload(1);
         player = GameObject.FindGameObjectWithTag("Player");
         player.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+        player.transform.position = new Vector3(0.48f, 1.09f);
         Time.timeScale = 1;
     }
 

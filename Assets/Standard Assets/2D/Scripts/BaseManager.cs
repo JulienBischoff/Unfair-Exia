@@ -25,26 +25,30 @@ public class BaseManager : MonoBehaviour {
 		
 	}
 
-    public void LoadScene(int scene)
+    public void LoadScene(int sceneID)
     {
-        if (SceneManager.GetSceneByBuildIndex(scene) != null)
+        if (SceneManager.GetSceneByBuildIndex(sceneID) != null)
         {
-            player = GameObject.FindGameObjectWithTag("Player");
-            player.transform.position = new Vector3(0.48f, 1.09f);
-            SceneManager.LoadSceneAsync(scene, LoadSceneMode.Additive);
+            SceneManager.LoadSceneAsync(sceneID, LoadSceneMode.Additive);
         }
     }
 
-    public void UnloadScene(int scene)
+    public void UnloadScene(int sceneID)
     {
-        StartCoroutine(Unload(scene));
+        StartCoroutine(Unload(sceneID));
     }
 
-    IEnumerator Unload(int scene)
+    IEnumerator Unload(int sceneID)
     {
         yield return null;
 
-        SceneManager.UnloadSceneAsync(scene);
+        SceneManager.UnloadSceneAsync(sceneID);
+    }
+
+    public void Reload(int sceneID)
+    {
+        UnloadScene(sceneID);
+        LoadScene(sceneID);
     }
 
 	
