@@ -5,10 +5,14 @@ using UnityEngine;
 
 public class RestartInDeath : MonoBehaviour {
 
+    bool isTrigger = false;
 
     // Use this for initialization
     public void RESTART()
     {
-        FindObjectOfType<GameManager>().Restart();
+        if (!isTrigger)
+        {
+            FindObjectOfType<GameManager>().Restart();
+        }
     }
 }
