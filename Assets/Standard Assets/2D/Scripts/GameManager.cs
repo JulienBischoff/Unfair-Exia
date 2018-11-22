@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour {
 
     public void Death()
     {
-        Score.nbMort = Score.nbMort+1;
+        Score.nbMort++;
         canvas.SetActive(true);
         Time.timeScale = 0;
     }

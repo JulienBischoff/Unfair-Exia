@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class DeathScreen : MonoBehaviour
 {
-
-    void Start()
-    {
-        
-    }
+    bool isTrigger = false;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
-            FindObjectOfType<GameManager>().Death();
+            if (!isTrigger)
+            {
+                isTrigger = true;
+                FindObjectOfType<GameManager>().Death();
+            }
         }
 
     }
