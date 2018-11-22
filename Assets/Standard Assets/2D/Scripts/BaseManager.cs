@@ -29,8 +29,6 @@ public class BaseManager : MonoBehaviour {
     {
         if (SceneManager.GetSceneByBuildIndex(sceneID) != null)
         {
-            player = GameObject.FindGameObjectWithTag("Player");
-            player.transform.position = new Vector3(0.48f, 1.09f);
             SceneManager.LoadSceneAsync(sceneID, LoadSceneMode.Additive);
         }
     }
