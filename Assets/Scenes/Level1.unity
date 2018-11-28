@@ -1525,7 +1525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piege: {fileID: 4625636465432830, guid: 2b1e2b912334b5043a8ee569ea3c97d1, type: 2}
-  coordonnees: {x: 72.8, y: 5.04}
+  coordonnees: {x: 83.7, y: 5.04}
 --- !u!61 &488097268
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5565,7 +5565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piege: {fileID: 4625636465432830, guid: 2b1e2b912334b5043a8ee569ea3c97d1, type: 2}
-  coordonnees: {x: 72.8, y: 5.04}
+  coordonnees: {x: 57.1, y: 5.04}
 --- !u!61 &1792848998
 BoxCollider2D:
   m_ObjectHideFlags: 0

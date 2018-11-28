@@ -18,7 +18,7 @@ public class BaseManager : MonoBehaviour {
             baseManager = this;
 
             
-            //SceneManager.LoadSceneAsync(1, LoadSceneMode.Additive); //ligne a décommenter pour build
+            SceneManager.LoadSceneAsync(1, LoadSceneMode.Additive); //ligne a décommenter pour build
 
             gameStart = true;
         }
