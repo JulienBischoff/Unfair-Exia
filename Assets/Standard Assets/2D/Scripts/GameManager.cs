@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour {
 
     private GameObject player;
 
+    public int nbLevel = 1;
+
     public void Update()
     {
 
@@ -26,6 +28,7 @@ public class GameManager : MonoBehaviour {
     public void Restart()
     {
         BaseManager.baseManager.Reload(1);
+        BaseManager.baseManager.Reload(2);
         player = GameObject.FindGameObjectWithTag("Player");
         player.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         player.transform.position = new Vector3(0.48f, 1.09f);
