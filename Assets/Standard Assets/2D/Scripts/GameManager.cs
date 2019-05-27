@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour {
 
     public GameObject canvas;
     public bool isVert;
+    public Vector3 PositionInitiale = new Vector3(0.48f, 1.09f);
 
     private GameObject player;
 
@@ -31,7 +32,7 @@ public class GameManager : MonoBehaviour {
         BaseManager.baseManager.Reload(2);
         player = GameObject.FindGameObjectWithTag("Player");
         player.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
-        player.transform.position = new Vector3(0.48f, 1.09f);
+        player.transform.position = PositionInitiale;
         Time.timeScale = 1;
     }
 

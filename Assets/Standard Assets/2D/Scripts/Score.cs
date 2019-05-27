@@ -18,6 +18,5 @@ public class Score : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         score.text = "Nombre de mort: " + nbMort;
-        print(nbMort);
 	}
 }
