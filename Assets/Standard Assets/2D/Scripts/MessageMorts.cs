@@ -26,6 +26,7 @@ public class MessageMorts : MonoBehaviour
         "Faut sauter, si jamais...",
         "Je te rappelle que le but c'est de pas mourir hein",
         "Cherche le mot-clé \"noob\"",
+        "Olivier'ed",
 
         };
 
@@ -34,7 +35,6 @@ public class MessageMorts : MonoBehaviour
     {
         message = GetComponent<Text>();
         message.text = messagesMorts[Random.Range(0, messagesMorts.Length)];
-        print("mff");
     }
 
 }
