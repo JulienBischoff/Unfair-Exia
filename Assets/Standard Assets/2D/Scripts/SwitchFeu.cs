@@ -8,11 +8,11 @@ public class SwitchFeu : MonoBehaviour {
     public Sprite feuRouge;
     public Sprite feuVert;
 
-    private float count = 0f;
+    private float count = 10f;
 
     private void Start()
     {
-        FindObjectOfType<GameManager>().isVert = true;
+        FindObjectOfType<GameManager>().isVert = false;
     }
 
     // Update is called once per frame

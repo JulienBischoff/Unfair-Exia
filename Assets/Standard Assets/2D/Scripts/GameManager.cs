@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets._2D;
 
 public class GameManager : MonoBehaviour {
 
@@ -34,6 +35,12 @@ public class GameManager : MonoBehaviour {
         player.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         player.transform.position = PositionInitiale;
         Time.timeScale = 1;
+    }
+    
+    public void ChangeModeDifficulte()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+        player.GetComponent<PlatformerCharacter2D>().m_AirControl = !player.GetComponent<PlatformerCharacter2D>().m_AirControl;
     }
 
 }
