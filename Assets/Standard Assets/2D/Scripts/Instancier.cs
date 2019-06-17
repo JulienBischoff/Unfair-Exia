@@ -17,7 +17,7 @@ namespace UnityStandardAssets._2D
                 if (!isTrigger)
                 {
                     SceneManager.SetActiveScene(SceneManager.GetSceneByBuildIndex(1));
-                    Instantiate(piege, (coordonnees), Quaternion.identity);
+                    Instantiate(piege, (coordonnees), piege.rotation );
                     isTrigger = true;
                 }
             }
