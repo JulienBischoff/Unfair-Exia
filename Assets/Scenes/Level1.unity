@@ -10037,7 +10037,7 @@ MonoBehaviour:
   winCanvas: {fileID: 656242529}
   textWin: {fileID: 673361631}
   isVert: 0
-  PositionInitiale: {x: 216.2, y: 1.22, z: 0}
+  PositionInitiale: {x: -1, y: 1.22, z: 0}
   nbLevel: 1
 --- !u!1001 &2120461652
 PrefabInstance:
