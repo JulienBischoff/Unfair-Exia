@@ -2,12 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-public class RestartInDeath : MonoBehaviour {
-
-    // Use this for initialization
+public class RestartInDeath : MonoBehaviour
+{
     public void RESTART()
     {
-            FindObjectOfType<GameManager>().Restart();
+        FindObjectOfType<GameManager>().Restart();
     }
 }

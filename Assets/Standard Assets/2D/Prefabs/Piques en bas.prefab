@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 6985789093723978162, guid: 81875d407368ff846b316e1faa8d3c03,
         type: 3}
       propertyPath: m_Name
-      value: Piques
+      value: Piques en bas
       objectReference: {fileID: 0}
     - target: {fileID: 6135781045325698928, guid: 81875d407368ff846b316e1faa8d3c03,
         type: 3}
@@ -71,6 +71,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: -0.31729332
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907586144595758429, guid: 81875d407368ff846b316e1faa8d3c03,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.13476968
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907586144595758429, guid: 81875d407368ff846b316e1faa8d3c03,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 4.3771358
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907586144595758429, guid: 81875d407368ff846b316e1faa8d3c03,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.022209167
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907586144595758429, guid: 81875d407368ff846b316e1faa8d3c03,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 4.8075867
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81875d407368ff846b316e1faa8d3c03, type: 3}
