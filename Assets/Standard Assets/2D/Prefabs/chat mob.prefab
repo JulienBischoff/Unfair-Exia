@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4462609815091550}
   - component: {fileID: 212557410880050004}
-  - component: {fileID: 114606514558122182}
   - component: {fileID: 7153142580124151605}
+  - component: {fileID: 114606514558122182}
   m_Layer: 0
   m_Name: chat mob
   m_TagString: Piege
@@ -81,18 +81,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &114606514558122182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1515740667343156}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a68b4de3c0bfea4ba737c85c897abf9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &7153142580124151605
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -103,7 +91,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -139,3 +127,15 @@ PolygonCollider2D:
       - {x: 0.25, y: -0.42499998}
       - {x: 0.31, y: -0.385}
       - {x: 0.31423825, y: -0.26759863}
+--- !u!114 &114606514558122182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515740667343156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a68b4de3c0bfea4ba737c85c897abf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
